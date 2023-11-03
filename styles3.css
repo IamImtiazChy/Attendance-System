@@ -1,0 +1,118 @@
+        /* Add this CSS code within the <style> tag */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .title {
+            font-size: 15px;
+            font-weight: bold;
+            background-image: url('/bg.png');
+            padding: 10px;
+            color: white;
+            text-align: center;
+
+            border-radius: 10px;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Form Styles */
+        form {
+            max-width: 100%;
+            /* Increase the width to accommodate the form */
+            margin: 0 auto;
+            background-color: #f8770f;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-field input {
+            width: 52%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-field select {
+            width: 52%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="date"],
+        input[type="text"] {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+
+
+        /* Style the submit button */
+        input[type="submit"] {
+            background-color: #f73a00;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #e2bb1ec9;
+        }
+
+        input[type="submit"]:active {
+            transform: scale(0.95);
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            /* border-radius: 5px; */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        th {
+            background-image: url('/bg.png');
+            color: #fff;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Center the table horizontally */
+        table {
+            margin: 0 auto;
+        }

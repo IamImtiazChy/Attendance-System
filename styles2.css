@@ -1,0 +1,149 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    background-image: url('/bg.png');
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+    border-radius: 20px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-field {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-field select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-buttons {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.table-section {
+    overflow-x: auto;
+}
+
+#attendanceTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#attendanceTable th,
+#attendanceTable td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#attendanceTable th {
+    background-image: url('/bg.png');
+    text-align: center;
+    color: white;
+}
+
+.actions-cell button {
+    margin-right: 5px;
+}
+
+
+
+.submit-button,
+.generate-report-button {
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #F9770F;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-size: 10px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#submitAttendance {
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    width: 170px;
+    /* padding-bottom: 10px; */
+    background-color: #F9770F;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#submitAttendance:hover {
+    background-color: #e2bb1ec9;
+    color: white;
+    font-weight: bold;
+}
+
+#submitAttendance:active {
+    transform: scale(0.95);
+}
+
+
+
+.submit-button:hover,
+.generate-report-button:hover {
+    background-color: #e2bb1ec9;
+    color: white;
+    font-weight: bold;
+}
+
+.submit-button:active,
+.generate-report-button:active {
+    transform: scale(0.95);
+    /* Shrink the button when clicked */
+}
