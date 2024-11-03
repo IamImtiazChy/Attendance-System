@@ -1,4 +1,4 @@
-<h2> Attendance Management System </h2>
+<h3> Attendance Management System </h3>
 
 <h4>Functionality Overview:</h4>
 <li> <b>Date Selection:</b> Teachers can select a specific date for taking attendance.</li>
