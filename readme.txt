@@ -1,62 +1,62 @@
-## Attendance Management System
+<h2> Attendance Management System </h2>
 
-Functionality Overview:
-** Date Selection: Teachers can select a specific date for taking attendance.
+<h4>Functionality Overview:</h4>
+<li> <b>Date Selection:</b> Teachers can select a specific date for taking attendance.</li>
 
-** Department Selection: Teachers can choose the department for which they want to take attendance.
+<li> <b>Department Selection:</b> Teachers can choose the department for which they want to take attendance.</li>
 
-** Semester Selection: Teachers can specify the semester for which they are taking attendance.
+<li> <b>Semester Selection:</b> Teachers can specify the semester for which they are taking attendance.</li>
 
-** Session Selection: Teachers can select the session.
+<li> <b>Session Selection:</b> Teachers can select the session.</li>
 
-** Course Code Selection: Teachers can choose the course for which they want to record attendance.
+<li> <b>Course Code Selection:</b> Teachers can choose the course for which they want to record attendance.</li>
 
-** Submit Button: After entering the above information, teachers can click the "Submit" button.
+<li> <b>Submit Button:</b> After entering the above information, teachers can click the "Submit" button.</li>
 
-** Attendance Recording: Upon submission, the system displays a list of students enrolled in the selected course with options to mark them as "absent" or "present."
+<li> <b>Attendance Recording:</b> Upon submission, the system displays a list of students enrolled in the selected course with options to mark them as "absent" or "present."</li>
 
-** Submit Attendance: After filling out the attendance, teachers can submit the attendance data.
+<li> <b>Submit Attendance:</b> After filling out the attendance, teachers can submit the attendance data.</li>
 
-** Attendance Data Storage: The system saves the attendance data for the specified date.
+<li> <b>Attendance Data Storage:</b> The system saves the attendance data for the specified date.</li>
 
-** Attendance Report: Teachers can access an "Attendance Report" page with the following options:
+<li> <b>Attendance Report:</b> Teachers can access an "Attendance Report" page with the following options:</li>
+<ul>
+<li> <b>Department Selection:</b> Choose the department for which they want to view attendance reports.</li>
 
-** Department Selection: Choose the department for which they want to view attendance reports.
+<li> <b>Semester Selection:</b> Specify the semester for which they want to view attendance reports.</li>
 
-** Semester Selection: Specify the semester for which they want to view attendance reports.
+<li> <b>Course Code Selection:</b> Select the course code for which they want attendance data.</li>
 
-** Course Code Selection: Select the course code for which they want attendance data.
+<li> <b>Date Range Selection:</b> Choose a date range (from date and to date) for which they want to generate the attendance report.</li>
 
-** Date Range Selection: Choose a date range (from date and to date) for which they want to generate the attendance report.
+<li> <b>Generate Report:</b> After entering the above information, teachers can click the "Submit" button to generate the attendance report.</li>
 
-** Generate Report: After entering the above information, teachers can click the "Submit" button to generate the attendance report.
+<li> <b>Attendance Report Table:</b> The system displays a table with students' names and their attendance data for the selected date range.</li>
 
-** Attendance Report Table: The system displays a table with students' names and their attendance data for the selected date range.
+<li> <b>Count Classes and Attendance:</b> Teachers can count how many classes were held and how many attendance records were given for each student.</li>
 
-** Count Classes and Attendance: Teachers can count how many classes were held and how many attendance records were given for each student.
+<li> <b>Marking System:</b> The system includes a marking system that presumably calculates and displays students' attendance-based marks or grades.</li></ul>
 
-** Marking System: The system includes a marking system that presumably calculates and displays students' attendance-based marks or grades.
-
-Guideline for Running the System:
+<h4>Guideline for Running the System:</h4>
 To run this system on a local PHP server, follow these steps:
 
-** Server Setup:
+<li> <b>Server Setup:</b></li>
 
 Ensure you have a local PHP development environment set up. You can use tools like XAMPP, WAMP, or MAMP to install PHP, Apache, and MySQL on your local machine.
 
-** Database Setup:
+<li> <b>Database Setup:</b></li>
 
 Create a MySQL database to store student and attendance data. Design tables to store information about students, courses, attendance, and other relevant data.
 
-** Backend Development:
+<h4>Backend Development:</h4>
 
 Develop PHP scripts to handle data input, processing, and storage. Implement functionality for date selection, department selection, semester selection, etc. Create endpoints for submitting and retrieving attendance data.
 
-** Frontend Development:
+<h4>Frontend Development:</h4>
 
 Develop a user-friendly web interface using HTML, CSS, and JavaScript. Create forms for date selection, department selection, and other inputs. Design pages for displaying attendance reports and marking systems.
 
-**Database Integration:
+<h4>Database Integration:</h4>
 
 Connect your PHP scripts to the MySQL database. Implement data retrieval and storage mechanisms for attendance and student information.
 
