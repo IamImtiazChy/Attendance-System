@@ -1,24 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attendance Management System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        h3, h4 {
-            color: #2c3e50;
-        }
-        ul {
-            list-style-type: none;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
 <body>
 
 <h3>Attendance Management System</h3>
